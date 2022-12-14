@@ -13,22 +13,22 @@
 Install nala 
 
 ```bash
-    sudo nala update
-    sudo apt install nala
+sudo nala update
+sudo apt install nala
 ```
 
 cara penggunaan tetap sama seperti apt hanya diganti menjadi nala
 
 contoh:
 ```bash
-    sudo apt install NAMA_PACKAGE
+sudo nala install NAMA_PACKAGE
 ```
 ## Tweaks
 Instalasi
 
 ```bash
-    sudo nala update
-    sudo nala install gnome-tweaks
+sudo nala update
+sudo nala install gnome-tweaks
 ```
 
 Download browser integrasi :
@@ -58,12 +58,13 @@ Rekomendasi Icon:
 Rekomendasi Pengembang tema:
 - [Vinceliuice](https://www.gnome-look.org/u/vinceliuice)
 - [Tarma](https://www.gnome-look.org/u/tarma)
+
 ## Flatpak
 
 Instalasi Flatpak
 ```bash
-    sudo nala update
-    sudo nala install flatpak
+sudo nala update
+sudo nala install flatpak
 ```
 
 
@@ -71,8 +72,8 @@ Instalasi Flatpak
 Instalasi Web app manager
 
 ```bash
-    sudo nala update
-    sudo nala install webapp-manager
+sudo nala update
+sudo nala install webapp-manager
 ```
 ## XAMPP Control Panel
 
@@ -83,57 +84,57 @@ Pergi ke halaman [Download XAMPP](https://www.apachefriends.org/download.html) l
 Ganti izin aplikasi
 
 ```bash
-    sudo chmod 755 NAMA_FILE_XAMPP
+sudo chmod 755 NAMA_FILE_XAMPP
 ```
 
-Lalu jalankan
+Lalu jalankan installer xampp
 
 ```bash
-    ./NAMA_FILE_XAMPP
+./NAMA_FILE_XAMPP
 ```
 
 Buat folder htdocs menjadi dapat diakses oleh user mana saja
 
 ```bash
-    sudo chmod 755 /opt/lampp/htdocs
+sudo chmod 755 /opt/lampp/htdocs
 ```
 
 Ubah folder htdocs menjadi diluar grup root
 
 ```bash
-    chown NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
+chown NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
 ```
 
 Buat ikon XAMPP dapat diakses pada menu
 
 ```bash
-    cd ./local/share/applications
-    nano XAMPP.desktop
+cd ./local/share/applications
+nano XAMPP.desktop
 ```
 
 Pada file XAMPP.desktop paste kode ini
 
 ```bash
-    [Desktop Entry]
-    Encoding=UTF-8
-    Name=XAMPP Control Panel
-    Comment=Start and Stop XAMPP
-    Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /opt/lampp/manager-linux-x64.run"
-    Icon=/opt/lampp/htdocs/favicon.ico
-    Categories=Application
-    Type=Application
-    Terminal=false
+[Desktop Entry]
+Encoding=UTF-8
+Name=XAMPP Control Panel
+Comment=Start and Stop XAMPP
+Exec=sh -c "pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY /opt/lampp/manager-linux-x64.run"
+Icon=/opt/lampp/htdocs/favicon.ico
+Categories=Application
+Type=Application
+Terminal=false
 ```
 ## Wine & Playonlinux
 
 Install wine
 
 ```bash
-    sudo nala install wine
+sudo nala install wine
 ```
 
 Install Playonlinux
 
 ```bash
-    sudo nala install playonlinux
+sudo nala install playonlinux
 ```
