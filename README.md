@@ -104,7 +104,7 @@ sudo chmod -R 755 /opt/lampp/htdocs
 Ubah folder htdocs menjadi diluar grup root
 
 ```bash
-chown -R NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
+sudo chown -R NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
 ```
 
 Buat ikon XAMPP dapat diakses pada menu
