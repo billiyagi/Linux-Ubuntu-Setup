@@ -30,6 +30,7 @@ Instalasi
 ```bash
 sudo nala update
 sudo nala install gnome-tweaks
+sudo nala install chrome-gnome-shell
 ```
 
 Download browser integrasi :
@@ -97,13 +98,13 @@ Lalu jalankan installer xampp
 Buat folder htdocs menjadi dapat diakses oleh user mana saja
 
 ```bash
-sudo chmod 755 /opt/lampp/htdocs
+sudo chmod -R 755 /opt/lampp/htdocs
 ```
 
 Ubah folder htdocs menjadi diluar grup root
 
 ```bash
-chown NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
+chown -R NAMA_USER:NAMA_GRUP_USER /opt/lampp/htdocs
 ```
 
 Buat ikon XAMPP dapat diakses pada menu
