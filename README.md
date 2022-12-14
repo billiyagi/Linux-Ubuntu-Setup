@@ -1,12 +1,13 @@
 
 # Ubuntu Setup
-- nala package manager
-- tweaks
-- gnome ekstension
-- flatpak
-- web apps
-- xampp
-- wine & playonlinux
+  Daftar package rekomendasi:
+- [Nala Package Manager](https://github.com/billiyagi/Linux-Ubuntu-Setup#nala---package-manager)
+- [Tweaks](https://github.com/billiyagi/Linux-Ubuntu-Setup#tweaks)
+- [Gnome Ekstension](https://github.com/billiyagi/Linux-Ubuntu-Setup#gnome-ekstension)
+- [Flatpak](https://github.com/billiyagi/Linux-Ubuntu-Setup#flatpak)
+- [Web Apps](https://github.com/billiyagi/Linux-Ubuntu-Setup#web-apps)
+- [XAMPP Control Panel](https://github.com/billiyagi/Linux-Ubuntu-Setup#xampp-control-panel)
+- [Wine & Playonlinux](https://github.com/billiyagi/Linux-Ubuntu-Setup#wine--playonlinux)
 
 
 ## Nala - Package manager
